@@ -1,0 +1,49 @@
+/* Light Theme */
+.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --navbar-background: #f0f0f0;
+    --button-background: #007bff;
+    --button-text-color: #ffffff;
+}
+
+/* Dark Theme */
+.dark {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --navbar-background: #333333;
+    --button-background: #444444;
+    --button-text-color: #ffffff;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    background-color: var(--navbar-background);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+button {
+    background-color: var(--button-background);
+    color: var(--button-text-color);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
