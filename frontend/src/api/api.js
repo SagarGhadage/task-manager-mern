@@ -1,7 +1,7 @@
 import axios from "axios";
 const API_URL_Local = "http://localhost:8082/v1/";
-const API_URL_ONLINE = "https://task-management-app-7yzg.onrender.com/v1/";
-const API_URL = API_URL_Local;
+const API_URL_ONLINE = "https://task-manager-backend-6gzu.onrender.com";
+const API_URL = API_URL_ONLINE;
 const generateHeader = (type) => {
   const header = {
     headers: {
